@@ -35,8 +35,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/fstab.qcom:root/fstab.qcom
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := wt86518
-PRODUCT_NAME := full_wt86518
+PRODUCT_DEVICE := wt86528
+PRODUCT_NAME := full_wt86528
 PRODUCT_BRAND := Lenovo
-PRODUCT_MODEL := K30-T
+PRODUCT_MODEL := K31-t3
 PRODUCT_MANUFACTURER := Lenovo
