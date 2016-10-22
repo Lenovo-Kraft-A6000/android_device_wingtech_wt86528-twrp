@@ -16,7 +16,7 @@
 # Product-specific compile-time definitions.
 #
 
-LOCAL_PATH := $(call my-dir)
+LOCAL_PATH := device/wingtech/wt86528
 
 TARGET_BOARD_VENDOR := lenovo
 
@@ -48,10 +48,10 @@ BOARD_RAMDISK_OFFSET     := 0x01000000
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/mkbootimg.mk
 
-#TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/recovery/kernel
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
 
-TARGET_KERNEL_SOURCE := kernel/wingtech/wt86528
-TARGET_KERNEL_CONFIG := wt86528-perf_defconfig
+##TARGET_KERNEL_SOURCE := kernel/wingtech/wt86528
+##TARGET_KERNEL_CONFIG := wt86528-perf_defconfig
 
 # Init
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
