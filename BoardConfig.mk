@@ -16,7 +16,7 @@
 # Product-specific compile-time definitions.
 #
 
-LOCAL_PATH := device/wingtech/wt86528
+LOCAL_PATH := device/lenovo/wt86528
 
 TARGET_BOARD_VENDOR := lenovo
 
@@ -51,7 +51,7 @@ BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/mkbootimg.mk
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/recovery/kernel
 
 #If enable this,using builting kernel from source instead of prebuilt kernel
-#TARGET_KERNEL_SOURCE := kernel/wingtech/wt86528
+#TARGET_KERNEL_SOURCE := kernel/lenovo/msm8916
 #ARGET_KERNEL_CONFIG := wt86528-perf_defconfig
 
 # Init
